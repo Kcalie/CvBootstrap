@@ -1,4 +1,6 @@
+
 /*FONTS*/
+
 @font-face 
 {
     font-family: 'Montserrat-Medium';
@@ -13,11 +15,15 @@
     font-family: 'Tangerine-Bold';
     src: url('Police/Tangerine/Tangerine-Bold.ttf');
 }
+
+
 body{
     background-color: #303336;
     color: white;
 }
+
 /*TOP*/
+
 .top{
     display: flex;
     justify-content: space-evenly;
@@ -63,8 +69,9 @@ body{
     list-style: none;
     padding: 10px;
 }
-/*TOP FIN*/
-/*PROJET HOBBIES*/
+
+/*PROJET & HOBBIES*/
+
 .presentation{
     font-size: 23px;
     text-align: center;
@@ -88,11 +95,22 @@ h1{
     text-align: center;
     font-family: 'Montserrat-Bold', Courier, monospace;
 }
+
 /*BUTTON*/
+
 .download{
     width: 150px;
     margin-bottom: 10px;
     margin-left: 10px;
+}
+a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
 }
 button{
     background: rgb(109, 19, 109); 
@@ -105,7 +123,7 @@ button{
 }
 .button:hover 
 {
-    background: rgb(16, 90, 228); /* plus sombre en pointant dessus */
+    background: rgb(16, 90, 228); 
 }
 .button_text a:hover{
     color: black; 
@@ -113,7 +131,9 @@ button{
 .button_icon a:hover{
     color: black; 
 }
-/*END BUTTON*/
+
+/*FORMATIONS & EXPERIENCES*/
+
 .formations, .tailleform{
     font-size: 50px;
 }
@@ -128,25 +148,13 @@ button{
     margin: 20px;
     padding: 20px;
 }
+
 /*FOOTER*/
-a{
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-}
-a:hover{
-    color: blue;
-    text-decoration: underline;
-}
-footer{
-    
+
+footer{  
     background-image: url('images/footer.jpg');
     text-align: center;
     color: white;  
-}
-h5{
-    margin-left: 6px;
-    font-size: 25px;
 }
 p{
     font-family: 'Monserrat-Medium', Courier, monospace;
